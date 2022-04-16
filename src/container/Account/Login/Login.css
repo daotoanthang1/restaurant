@@ -1,0 +1,161 @@
+/* .wrapper__login{
+    display: none;
+} */
+.wrapper__login{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/bgLogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.wrapper__login::before{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+    content: "";
+    position: absolute;
+}
+.wrapper__login-box{
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    height: 400px;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.wrapper__login-box-left{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(12 14 33 / 92%);
+}
+.wrapper__login-box-right{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+.wrapper__login-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wrapper__login-logo img{
+    width: 150px;
+    margin: 4rem 0 0 1rem;
+}
+.wrapper__login-text p.p__opensans{
+    font-size: 12px;
+    padding: 1rem;
+}
+.wrapper__login-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper__login-option{
+    margin: 1rem 0.5rem 0 0;
+    width: 320px;
+    height: 40px;
+}
+.wrapper__login-option button{
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.wrapper__login-account{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Titillium Web', sans-serif;
+}
+.wrapper__login-account h1.login__account{
+    margin: 3rem 0 0 6.5rem;
+    font-size: 34px;
+}
+.wrapper__login-account p{
+    color: black;
+    padding: 0 0 0 8rem;
+    text-transform: none;
+}
+.wrapper__login-account strong{
+    color: #4f77ff;
+}
+.wrapper__login-account form{
+    width: 100%;
+    height: 200px;
+    margin: 2rem 0 0 2rem;
+}
+.wrapper__login-account form svg{
+    display: none;
+}
+.wrapper__login-account form .ant-row.ant-form-item{
+    width: 100%;
+    height: 40px;
+    
+}
+.ant-col.ant-form-item-control{
+    width: 100%;
+    height: 100%;
+}
+.ant-form-item-control-input{
+    width: 100%;
+    height: 100%;
+}
+.ant-form-item-control-input-content{
+    width: 100%;
+    height: 100%;
+}
+span.ant-input-affix-wrapper{
+    width: 100%;
+    height: 100%;
+}
+input#normal_login_username{
+    width: 88%;
+    height: 100%;
+    color: #333333;
+    font-size: 18px;
+    padding: 12px 22px;
+    border-radius: 3px;
+    border: solid 1px #bcc2ce;
+    outline: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%), 0 0 2px 0 rgb(0 0 0 / 10%);
+}
+input#normal_login_password{
+    width: 88%;
+    height: 100%;
+    color: #333333;
+    font-size: 18px;
+    padding: 12px 22px;
+    border-radius: 3px;
+    border: solid 1px #bcc2ce;
+    outline: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%), 0 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 2rem 0 0 0;
+}
+
+button.ant-btn.ant-btn-primary.login-form-button{
+    width: 88%;
+    height: 100%;
+    background-color: #4f77ff;
+    border-color: #4f77ff;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px #9c9c9c;
+}
+a.login-form-forgot {
+    margin: 0 0 0 14rem;
+}
+span.anticon.anticon-close-circle.ant-alert-icon{
+    color: #ff4d4f;
+}
+.ant-alert-content{
+    color: #8f373a;
+}
